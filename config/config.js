@@ -4,22 +4,22 @@ const config = () => {
     switch (env) {
         case 'dev':
             return {
-                bd_string: 'mongodb+srv://user_admin:admin_mongodb@clusterapi.muwpn.mongodb.net/test?retryWrites=true&w=majority',
-                jwt_pass: 'senha',
+                bd_string: '',
+                jwt_pass: '',
                 jwt_expires_in: '7d',
             }
         
         case 'hml':
             return {
-                bd_string: 'mongodb+srv://user_admin:admin_mongodb@clusterapi.muwpn.mongodb.net/hml?retryWrites=true&w=majority',
-                jwt_pass: 'senha2',
+                bd_string: '',
+                jwt_pass: '',
                 jwt_expires_in: '7d',
             }
 
         case 'prod':
             return {
-                bd_string: 'mongodb+srv://user_admin:admin_mongodb@clusterapi.muwpn.mongodb.net/prod?retryWrites=true&w=majority',
-                jwt_pass: 'senha3',
+                bd_string: '',
+                jwt_pass: '',
                 jwt_expires_in: '7d',
             }
     }
